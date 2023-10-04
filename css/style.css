@@ -58,6 +58,48 @@ ul li {
     position: relative;
 }
 
+.x-image img {
+    width: 25px;
+
+}
+
+.x-image {
+    animation: animName 2s linear infinite;
+}
+
+@keyframes animName {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.x-one-image {
+    animation: animNametwo 2s linear infinite;
+    position: absolute;
+    top: 30px;
+    margin: 0 6px;
+}
+
+.x-one-image img {
+    width: 25px;
+
+}
+
+@keyframes animNametwo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .main-slider {
     overflow: hidden;
 }
@@ -85,7 +127,7 @@ ul li {
     left: 0;
     z-index: 99;
     background: #271273;
-
+    transition: 0.9s all ease;
 }
 
 .menu>ul {
@@ -499,7 +541,7 @@ ul li {
     background: linear-gradient(180deg, #9056E8 0%, #2A54F1 100%);
     border-radius: 6px;
 
-    margin: 100px 25px 0px 0px;
+    margin: 100px 25px 50px 0px;
 }
 
 .service-box-text img {
@@ -1063,7 +1105,7 @@ ul.tabs li.current span {
 
 .plans-heading {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 
